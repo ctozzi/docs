@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows users to include other components. Typically used to avoid code duplication. When having a component (e.g. select component for heading levels) that is used in multiple places, we can extract it to a common place and include it everywhere instead of duplicating it.
+The Include component allows users to include other components. It's typically used to avoid code duplication. When we have a component (e.g., a Select component for heading levels) that is used in multiple places, we can use Include to extract it to a common place and include it everywhere instead of duplicating it.
 
 ## Properties
 
@@ -12,7 +12,7 @@ Allows users to include other components. Typically used to avoid code duplicati
     The path of the resource that needs to be included.
 
 - **namespace** - `string` (optional)  
-    If we include the same component multiple times, then we will have name conflict. To avoid it, we can set the namespace property. The name properties' values will be prepended by this namespace. For example: if the included component’s name property is `authorName` and we set `book1` as namespace, then the name will be `book1/authorName` while reading and saving the dialog.
+    If we include the same component multiple times, then we will have a name conflict. To avoid this, we can set the namespace property. The name property values will be prepended by this namespace. For example: If the included component’s name property is `authorName` and we set `book1` as the namespace, then the name will be `book1/authorName` while reading and saving the dialog.
 
 ```json
 "headingLevel": {
@@ -26,9 +26,9 @@ Allows users to include other components. Typically used to avoid code duplicati
 
 Sometimes it is not enough to simply include some other components and use the default settings provided by the included component. We can easily customize it by creating a child node named `include`. If we do so, we have to set the `sling:resourceSuperType` property. Its value should be the path of the component that we want to include.
 
-After `sling:resourceSuperType` is set up correctly, we can add properties to the `include` node. Additionally we can create a similar subtree as the included component’s subtree and we can add/override properties on children nodes as well.
+After `sling:resourceSuperType` is set up correctly, we can add properties to the `include` node. Additionally we can create a similar subtree as the included component’s subtree, and we can add or override properties on children nodes as well.
 
-**Note:** under the hood, Sling resource merger is doing the trick for us. This means that we can use properties like `sling:hideResource` , `sling:orderBefore` , etc.
+**Note:** under the hood, the Sling resource merger performs the work described above. This means that we can use properties like `sling:hideResource` , `sling:orderBefore` , etc.
 
 #### Included component
 
