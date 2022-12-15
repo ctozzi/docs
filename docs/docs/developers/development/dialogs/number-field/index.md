@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows user to enter numbers. If empty then respective property in JCR doesn’t exist.
+The Numberfield component allows the user to enter numbers. If it's empty, the respective property in JCR won't exist.
 
 ## Properties
 
