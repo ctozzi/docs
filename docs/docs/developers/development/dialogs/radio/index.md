@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows user to pick exactly one from many available options.
+The Radio component allows the user to select exactly one from multiple available options.
 
 ## Properties
 
@@ -21,9 +21,9 @@ Allows user to pick exactly one from many available options.
     Indicates if field value is mandatory
 
 - **removeIfEmpty** - `string` (if not defined `false`)  
-    Indicates if property in JCR will be removed, if contains empty String, or will be kept with that value
+    Indicates if property in JCR will be removed if it contains an empty string, or will be kept with that value
 
-It should contain child nodes with options. One of this options will be checked by default. If none option will be marked as selected than first one will be chosen. If more than one option will be marked as selected than first ot them will be chosen.
+It should contain child nodes with options. One of these options will be checked by default. If no option is marked as selected by default, the first one will be chosen to be marked. If more than one option is selected by default, the first of them will be chosen to be marked.
 
 # Option
 
@@ -31,7 +31,7 @@ It should contain child nodes with options. One of this options will be checked 
 
 ## Description
 
-Defines one of the available option.
+Defines one of the available options.
 
 ## Properties
 
@@ -39,10 +39,10 @@ Defines one of the available option.
     Display label
 
 - **value** - `string`(required)  
-    Value of choosen option
+    Value of chosen option
 
 - **selected** - `string`  
-    Indicates if field is selected by default. By default, this option will not be saved in the properties unless the user selects an option manually. So in order to make things work perfectly, we should use the same default value in the backend side as well.
+    Indicates whether field is selected by default. By default, this option will not be saved in the properties unless the user selects an option manually. It is therefore advisable to use the same default value on the backend side as well.
 
 ## Example
 
