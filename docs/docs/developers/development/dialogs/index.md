@@ -1,10 +1,10 @@
 # Dialogs
 
-Dialogs framework which is part of WebSight CMS allows to define dialog fields components used to build the dialog used to submit data saved in content resources.
+The Dialogs framework in WebSight CMS allows users to define dialog fields components, which are used to build dialogs. The dialogs can submit data saved in content resources.
 
-WebSight CMS delivers set of ready to use components, see subsections of this documentation for details.
+WebSight CMS delivers a set of ready-to-use components. See subsections of this documentation for details.
 
-Example dialog structure definition can look like this:
+Example dialog structure definition:
 ```json
 {
   "sling:resourceType": "wcm/dialogs/dialog",
@@ -58,7 +58,7 @@ Example dialog structure definition can look like this:
 }
 ```
 
-It will result with following in UI dialog: 
+The above will result in following UI dialog: 
 
 ![Dialog example tab1](dialog-example-tab1.png)
 
