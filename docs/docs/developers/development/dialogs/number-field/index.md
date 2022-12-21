@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows user to enter numbers. If empty then respective property in JCR doesn’t exist.
+The Number Field component allows the user to enter numbers. If it is empty, the respective property in JCR does not exist.
 
 ## Properties
 
@@ -22,7 +22,7 @@ Allows user to enter numbers. If empty then respective property in JCR doesn’t
 
 - **step** - `string` (default value = 1)  
     The value granularity.  
-    `number` - greater than zero. Indicates that the field accepts only values at multiples of the step. `"any"` - special value. Indicates that the value can be in any number.
+    `number` - greater than zero. Indicates that the field accepts only values at multiples of the step. `"any"` - special value. Indicates that the value can be any number.
 
 - **required**  
     Indicates if field value is mandatory
