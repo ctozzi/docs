@@ -3,8 +3,7 @@
 **wcm/dialogs/components/tabs**
 
 ## Description
-
-Allows user to add tab panel.
+The Tabs component allows the user to add a tab panel.
 
 ## Example
 
