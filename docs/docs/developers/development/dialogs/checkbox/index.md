@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows user choose check some option.
+The Checkbox component allows the user to choose check an option from a checkbox.
 
 ## Properties
 
