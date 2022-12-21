@@ -4,7 +4,7 @@
 
 ## Description
 
-Path picker is an input that allows the user pick path of resource from repository or to introduce external links. If the value starts with `/` the path picker will autosuggest possible values.
+The Path Picker component is an input that allows the user to selec tthe path of a resource from repository or introduce external links. If the value starts with `/` the path picker will autosuggest possible values.
 
 ![PathPicker](pathpicker.png)
 
@@ -26,7 +26,7 @@ Path picker is an input that allows the user pick path of resource from reposito
     Indicates whether the input value should be validated to start with the given `rootPath` value.
 
 - **removeIfEmpty** - `string` (if not defined `false`)  
-    Indicates if property in JCR will be removed, if contains empty String, or will be kept with that value
+    Indicates if the property in JCR will be removed if it contains empty string, or will be kept with that value
 
 - **description** - `string`  
     Display description value as a tooltip
