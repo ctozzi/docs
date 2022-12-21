@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows user choose enable or disable state.
+The Toggle comonent allows the user to enable or disable a selected state.
 
 ## Properties
 
@@ -18,13 +18,13 @@ Allows user choose enable or disable state.
     Indicates if field should be checked by default. Default: “false”.
 
 - **checkedValue** - `string`  
-    Define what value will be saved in JCR if checkbox is checked. Default: “true” String
+    Defines what value will be saved in JCR if the checkbox is checked. Default: “true” String
 
 - **uncheckedValue** - `string`  
-Define what value will be saved in JCR if checkbox is NOT checked. Default: “false” String
+    Defines what value will be saved in JCR if the checkbox is NOT checked. Default: “false” String
 
 - **description** - `string`  
-Display description value as a tooltip
+    Displays description value as a tooltip
 
 ## Example
 
