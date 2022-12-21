@@ -4,11 +4,11 @@
 
 ## Description
 
-Multifield component allows to add/reorder/remove multiple instances of a field.
+The Multifield component allows user to add, reorder or remove multiple instances of a field.
 
-In the simplest case, this is a simple form input field (e.g. TextField, TextArea) but it can also be a complex component acting as an aggregate of multiple subcomponents (e.g. address entry).
+In simple situations, this can be used ot create simple form input fields (e.g., TextField, TextArea). But it can also function as a complex component that acts as an aggregate of multiple subcomponents (e.g., an address entry).
 
-Field used in multifield behaves the same as in plain dialog - e.g. hiding labels.
+A field used in multifield behaves the same as in plain dialog; for example, for hiding labels.
 
 ## Properties
 
