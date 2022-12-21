@@ -4,7 +4,7 @@
 
 ## Description
 
-Allows user choose one of the options.
+The Select component allows the user choose one of several options.
 
 ## Properties
 
@@ -28,7 +28,7 @@ It should contain child nodes with options:
 
 ## Description
 
-Defines one of the available option.
+Defines one of the available options.
 
 ## Properties
 
@@ -39,7 +39,7 @@ Defines one of the available option.
     Value of choosen option
 
 - **selected** - `string`  
-    Indicates if field is selected by default. By default, this option will not be saved in the properties unless the user selects an option manually. So in order to make things work perfectly, we should use the same default value in the backend side as well.
+    Indicates whether field is selected by default. By default, this option will not be saved in the properties unless the user selects an option manually. It is therefore advisable to use the same default value on the backend side as well.
 
 ## Example
 
